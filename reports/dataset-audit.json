@@ -1,0 +1,848 @@
+{
+  "source": "https://github.com/AlanLowe007/EMHDD",
+  "commit": "137bb39cf5580c14e54e08e9ff2c7a8a420595f0",
+  "seed": 42,
+  "images": 56,
+  "unique_pixel_hashes": 56,
+  "near_duplicate_pairs_phash_hamming_le6": [],
+  "groups": 56,
+  "splits": {
+    "train": {
+      "images": 39,
+      "objects": {
+        "1": 33,
+        "0": 60
+      },
+      "ids": [
+        "daytime_00031",
+        "daytime_00024",
+        "daytime_00051",
+        "daytime_00012",
+        "daytime_00017",
+        "daytime_00021",
+        "daytime_00052",
+        "daytime_00055",
+        "daytime_00036",
+        "daytime_00020",
+        "daytime_00010",
+        "daytime_00034",
+        "daytime_00042",
+        "daytime_00045",
+        "daytime_00030",
+        "daytime_00056",
+        "daytime_00004",
+        "daytime_00022",
+        "daytime_00047",
+        "daytime_00005",
+        "daytime_00029",
+        "daytime_00011",
+        "daytime_00043",
+        "daytime_00023",
+        "daytime_00039",
+        "daytime_00025",
+        "daytime_00001",
+        "daytime_00026",
+        "daytime_00049",
+        "daytime_00019",
+        "daytime_00032",
+        "daytime_00037",
+        "daytime_00027",
+        "daytime_00013",
+        "daytime_00040",
+        "daytime_00033",
+        "daytime_00050",
+        "daytime_00014",
+        "daytime_00046"
+      ]
+    },
+    "val": {
+      "images": 8,
+      "objects": {
+        "0": 20,
+        "1": 5
+      },
+      "ids": [
+        "daytime_00054",
+        "daytime_00003",
+        "daytime_00028",
+        "daytime_00038",
+        "daytime_00006",
+        "daytime_00035",
+        "daytime_00044",
+        "daytime_00007"
+      ]
+    },
+    "test": {
+      "images": 9,
+      "objects": {
+        "0": 18,
+        "1": 4
+      },
+      "ids": [
+        "daytime_00053",
+        "daytime_00009",
+        "daytime_00015",
+        "daytime_00016",
+        "daytime_00018",
+        "daytime_00048",
+        "daytime_00002",
+        "daytime_00008",
+        "daytime_00041"
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "daytime_00001",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "1ced4d35605c70b82eed2614250be98f83007487d9381e34356191f50e868b73",
+      "objects": {
+        "0": 6,
+        "1": 1
+      },
+      "split": "train",
+      "group": 0
+    },
+    {
+      "id": "daytime_00002",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "eb4d16b5651eb177bc957167e7f7e80731223ca02a90338c76535f7af638087a",
+      "objects": {
+        "0": 1
+      },
+      "split": "test",
+      "group": 1
+    },
+    {
+      "id": "daytime_00003",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "72cfc4660d67549d8aadcaa36fdf7359961fc3974f2ee7671d7fe79cdb3333ba",
+      "objects": {
+        "0": 3,
+        "1": 1
+      },
+      "split": "val",
+      "group": 2
+    },
+    {
+      "id": "daytime_00004",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "1c789d2191cb5d4844b40c38b319e4225a0026f97c9d2f0f9a528e531a3ac423",
+      "objects": {
+        "0": 2
+      },
+      "split": "train",
+      "group": 3
+    },
+    {
+      "id": "daytime_00005",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "aa587c834ed1372fdc4ca164cbd7bde393a15b0151b0eb06a5ba647510da2256",
+      "objects": {
+        "1": 1,
+        "0": 3
+      },
+      "split": "train",
+      "group": 4
+    },
+    {
+      "id": "daytime_00006",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "770acea07a819d28efb99ec58a84e410abc028549ea97e3436c03f04880f5fe8",
+      "objects": {
+        "0": 2
+      },
+      "split": "val",
+      "group": 5
+    },
+    {
+      "id": "daytime_00007",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "3d54fdc0b19564bc741d91e1b36d4a9b6c1eaf4c46a67af8bf0fa0bf119184fa",
+      "objects": {
+        "0": 3
+      },
+      "split": "val",
+      "group": 6
+    },
+    {
+      "id": "daytime_00008",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "a4e131737e3b145b254e9c9bfcc26181b14a78b7f01fcd3b7e9bad1985e42eed",
+      "objects": {
+        "0": 1
+      },
+      "split": "test",
+      "group": 7
+    },
+    {
+      "id": "daytime_00009",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "8a9325e07676bbb9e74d3bf2237f27d972a0bcc0d219ba0324da8b8e8275d2ee",
+      "objects": {
+        "0": 1
+      },
+      "split": "test",
+      "group": 8
+    },
+    {
+      "id": "daytime_00010",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "6a919e231c7f94debb03ec92d594dea2269d7d8ca8d4c8b9b125bbb7c092fb94",
+      "objects": {
+        "1": 1,
+        "0": 3
+      },
+      "split": "train",
+      "group": 9
+    },
+    {
+      "id": "daytime_00011",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "a77df5341923d5b09992581cfceb8883cbf18eea4eff50e92d7055b7890467e4",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 10
+    },
+    {
+      "id": "daytime_00012",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "e1b637bdd0d7a14941a0445c41406fd0484d7a696cf26aa57d52f1add804b121",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 11
+    },
+    {
+      "id": "daytime_00013",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "0c67b5ed6d79d772f936644a2da906ef6fe83121bfd99255ceefdf3c9f905ddd",
+      "objects": {
+        "1": 3
+      },
+      "split": "train",
+      "group": 12
+    },
+    {
+      "id": "daytime_00014",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "3aad0a54cc10fdb5845c730773f5f564fde3bc2d6359a5971e6af9f8f7680c5e",
+      "objects": {
+        "0": 7,
+        "1": 1
+      },
+      "split": "train",
+      "group": 13
+    },
+    {
+      "id": "daytime_00015",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "f1e285981a9b64431240b8d4f1043cc7ea203514ad02bdab55395f9022023670",
+      "objects": {
+        "1": 1,
+        "0": 1
+      },
+      "split": "test",
+      "group": 14
+    },
+    {
+      "id": "daytime_00016",
+      "size": [
+        1920,
+        1080
+      ],
+      "pixel_sha256": "b1ebc299a615d42fe4de702cb08ff44f36031ff2443fde287e501802e7a27bb8",
+      "objects": {
+        "0": 3
+      },
+      "split": "test",
+      "group": 15
+    },
+    {
+      "id": "daytime_00017",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "47db98bb87739cc60a654478f06889c6ce6d24842a36544b4524814df52052aa",
+      "objects": {
+        "1": 1,
+        "0": 1
+      },
+      "split": "train",
+      "group": 16
+    },
+    {
+      "id": "daytime_00018",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "f6d300fff3843fea6253fa33211574d9b6b86625bf4f40ff540e387ea9830eb0",
+      "objects": {
+        "1": 1
+      },
+      "split": "test",
+      "group": 17
+    },
+    {
+      "id": "daytime_00019",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "731ec311bb67b8e456fbde7212610713583362819f6a1b3ea234fbef7b605926",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 18
+    },
+    {
+      "id": "daytime_00020",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "3e26df2d3ecc5d8c884d1e0d1aad345617155754be93039d4d90d0d0e34571c5",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 19
+    },
+    {
+      "id": "daytime_00021",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "e90b464ff814b1be3c62bf3823a0827347d079e6111aaf2a87067dabd57a3d9a",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 20
+    },
+    {
+      "id": "daytime_00022",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "2e92d60fe038fc2adc115efc6681988bea7ff557cb4936d99b90fbcfeee4aae7",
+      "objects": {
+        "0": 2
+      },
+      "split": "train",
+      "group": 21
+    },
+    {
+      "id": "daytime_00023",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "d26fd4d9dd465e40e5fe313b59b991841b0152b918dd525c57624b2843d05d21",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 22
+    },
+    {
+      "id": "daytime_00024",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "f7dce54857800150c9ae5f97b07775f170d8a56d994e72c0cd8d216c437c201a",
+      "objects": {
+        "0": 1,
+        "1": 1
+      },
+      "split": "train",
+      "group": 23
+    },
+    {
+      "id": "daytime_00025",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "63f28a9b526d8c8fed1585536202b46f2abec0716e3ace76b910d0394ee1c99b",
+      "objects": {
+        "0": 1
+      },
+      "split": "train",
+      "group": 24
+    },
+    {
+      "id": "daytime_00026",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "7154481b6b5382e78ee954409f57f10e42491f18183b6cca504d2779b4eb9e63",
+      "objects": {
+        "0": 1
+      },
+      "split": "train",
+      "group": 25
+    },
+    {
+      "id": "daytime_00027",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "4d55b4c7db1335cb14bdea50df5613f088cff37c39e14d5de9d31ebb4591021e",
+      "objects": {
+        "0": 1
+      },
+      "split": "train",
+      "group": 26
+    },
+    {
+      "id": "daytime_00028",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "94d1183e02639c2b3c0ce8f283e0662401c7e684dc6877f21608b9cee364c1ad",
+      "objects": {
+        "1": 1
+      },
+      "split": "val",
+      "group": 27
+    },
+    {
+      "id": "daytime_00029",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "acc3bee94761e151a04efd08e213cfed314b6705f3c1db71417b5b908ce9e7cd",
+      "objects": {
+        "0": 1,
+        "1": 1
+      },
+      "split": "train",
+      "group": 28
+    },
+    {
+      "id": "daytime_00030",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "3cc3b7b42ddf524deec4b094c0c89d330fc429b234294822af85192a7131846e",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 29
+    },
+    {
+      "id": "daytime_00031",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "fbf72d546f1098ba9e491e9763a663ff87aa29c050621443f6bf640040aebf52",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 30
+    },
+    {
+      "id": "daytime_00032",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "74da68c44de2b96863dbe17962f536727ed51c532a9116591ac0d2d625d02be6",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 31
+    },
+    {
+      "id": "daytime_00033",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "6ccaa4ea33ec13eae8b15b6972b84d6263386908d002914cbdca6ed1562cd7c3",
+      "objects": {
+        "1": 1,
+        "0": 1
+      },
+      "split": "train",
+      "group": 32
+    },
+    {
+      "id": "daytime_00034",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "8019133ff33882ade0cf74f8faf1115c9bee77fd62ad44700682946cc22decb5",
+      "objects": {
+        "1": 2,
+        "0": 1
+      },
+      "split": "train",
+      "group": 33
+    },
+    {
+      "id": "daytime_00035",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "ff3bfe7bab7a5017c7b38f725b7dfb8be25a40e1c783100f3fed35c9a4a32416",
+      "objects": {
+        "0": 2
+      },
+      "split": "val",
+      "group": 34
+    },
+    {
+      "id": "daytime_00036",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "e830c00b6933739f5558ab1282f623f001e30178c304887e20c37d1f1e035e11",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 35
+    },
+    {
+      "id": "daytime_00037",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "8ff7a25f8932f57204a82c5713c59e38eb686504a118c95505ee57f7b43eeb61",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 36
+    },
+    {
+      "id": "daytime_00038",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "a3f90a3b63e34c814489b3edfac32151e4f3b9b86c21cfae4e40f41ae2f26a63",
+      "objects": {
+        "1": 1
+      },
+      "split": "val",
+      "group": 37
+    },
+    {
+      "id": "daytime_00039",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "7a3bfd97549ef71a1fdc01f1489e42b93b8f7aa2deae6762d8a663dca97afeac",
+      "objects": {
+        "0": 1
+      },
+      "split": "train",
+      "group": 38
+    },
+    {
+      "id": "daytime_00040",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "033e686861ab4f21a461d58337577fc344926f9ee1327ee82f5769fff0c2d63a",
+      "objects": {
+        "0": 1
+      },
+      "split": "train",
+      "group": 39
+    },
+    {
+      "id": "daytime_00041",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "a294f6bed14347b6cb4fb50ab2efe48f33173dccbb64b62216187c567366885e",
+      "objects": {
+        "1": 1
+      },
+      "split": "test",
+      "group": 40
+    },
+    {
+      "id": "daytime_00042",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "1e3e9c735c03f12a087744a928eab52d6be0c9fec7ceb306662a82502b5ee7bf",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 41
+    },
+    {
+      "id": "daytime_00043",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "3ab93ac825ce3ddb3239e55c8de376a9cd604b92f5c88c298cce9998c6979917",
+      "objects": {
+        "0": 5,
+        "1": 1
+      },
+      "split": "train",
+      "group": 42
+    },
+    {
+      "id": "daytime_00044",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "87d1e6f76374c8ba48a932b4be8ea9ac6228c968e6c8507629906d97d04c6712",
+      "objects": {
+        "1": 2
+      },
+      "split": "val",
+      "group": 43
+    },
+    {
+      "id": "daytime_00045",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "8a71df4ef191cb16e5d051601edb75d6ac3616c4846b262c1cf61c943948412e",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 44
+    },
+    {
+      "id": "daytime_00046",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "c4d8dacf064e7b86787f78e8e79ba10dca7d17280bf7bb34989d4e459eab678f",
+      "objects": {
+        "0": 2
+      },
+      "split": "train",
+      "group": 45
+    },
+    {
+      "id": "daytime_00047",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "26d5b305f1640dd2c5be690fd10db7b074f1188be79fac45554970b9a534bf33",
+      "objects": {
+        "1": 1,
+        "0": 2
+      },
+      "split": "train",
+      "group": 46
+    },
+    {
+      "id": "daytime_00048",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "ff2aa7d5f09ecc84f691250a6b1c58ac54aa4269f1eb3bf2a99f69e2f0d9f297",
+      "objects": {
+        "0": 3,
+        "1": 1
+      },
+      "split": "test",
+      "group": 47
+    },
+    {
+      "id": "daytime_00049",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "f2cfa9a192b26382e65937799802b75f25b070e3ed5dabd19a405e9a95f26c81",
+      "objects": {
+        "1": 1
+      },
+      "split": "train",
+      "group": 48
+    },
+    {
+      "id": "daytime_00050",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "545699dc3b29fe50d468377a8a47c383449db78190446d75f425275d7960185e",
+      "objects": {
+        "1": 1,
+        "0": 3
+      },
+      "split": "train",
+      "group": 49
+    },
+    {
+      "id": "daytime_00051",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "8f40b9fed8bb1aa68147279516b69cbe113d42c2b737d2d3918f14617f0f0a12",
+      "objects": {
+        "1": 1,
+        "0": 5
+      },
+      "split": "train",
+      "group": 50
+    },
+    {
+      "id": "daytime_00052",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "b442853b3f750802e25fd034fab096bd4fa693aff8d43bfe85e70371c9b1b0bb",
+      "objects": {
+        "1": 1,
+        "0": 4
+      },
+      "split": "train",
+      "group": 51
+    },
+    {
+      "id": "daytime_00053",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "6f1b8a7e1bfaceef2d76f019d4b6029f0fd5ef88b042a02dfa92fe8803fb2d5a",
+      "objects": {
+        "0": 8
+      },
+      "split": "test",
+      "group": 52
+    },
+    {
+      "id": "daytime_00054",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "abfd48387bfd19870ebd2a6d1a4122a7a26c64c9146b700bbb889c8936dedfdb",
+      "objects": {
+        "0": 10
+      },
+      "split": "val",
+      "group": 53
+    },
+    {
+      "id": "daytime_00055",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "c411fef452a8502b88b7a4fa45828ba25286ff07fa96c0884c43ae00cd13d5dc",
+      "objects": {
+        "0": 3,
+        "1": 1
+      },
+      "split": "train",
+      "group": 54
+    },
+    {
+      "id": "daytime_00056",
+      "size": [
+        3024,
+        4032
+      ],
+      "pixel_sha256": "7bedf81690289ad05afeb3430c0a5c0a6e84d9e3cbf98663559e53a2f21848d5",
+      "objects": {
+        "0": 3
+      },
+      "split": "train",
+      "group": 55
+    }
+  ],
+  "limitations": [
+    "Only public daytime sample; not the claimed full 52,800-image corpus.",
+    "No video/camera IDs: perceptual grouping does not guarantee source-disjoint splits.",
+    "No explicit dataset license found; research pilot only; obtain permission before redistribution/deployment.",
+    "Some labels cover bicycle/e-bike riders or nearby pedestrians; rider association is not provided."
+  ]
+}

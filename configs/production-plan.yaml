@@ -1,0 +1,19 @@
+# Proposed future experiment; NOT run in this CPU pilot.
+model: yolo11n.pt
+classes: [no_helmet, helmet]
+imgsz: 960
+epochs: 100
+batch: 16
+device: 0
+seed: 42
+split_unit: source_video_or_camera
+split_ratio: [0.7, 0.15, 0.15]
+target_domain: Vietnamese motorcycle traffic
+collect_conditions: [day, night, rain, occlusion, distant_heads, multiple_passengers]
+# Proposed acceptance criteria; must be measured on independent local cameras.
+acceptance_targets:
+  no_helmet_precision: 0.95
+  no_helmet_recall: 0.90
+  false_alerts_per_camera_hour: 1.0
+  camera_to_alert_p95_ms: 500
+  evaluation_units: [object, track, camera_hour]

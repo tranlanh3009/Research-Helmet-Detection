@@ -1,0 +1,4 @@
+# Install CPU torch/torchvision first (see README).
+torch==2.6.0
+torchvision==0.21.0
+ultralytics==8.3.220

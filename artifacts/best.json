@@ -1,0 +1,21 @@
+{
+  "onnx": "/workspace/Research-Helmet-Detection/artifacts/best.onnx",
+  "opset": 17,
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "output_shape": [
+    1,
+    6,
+    8400
+  ],
+  "max_absolute_error": 0.001312255859375,
+  "onnx_checker": "passed",
+  "onnxruntime_cpu_parity": "passed",
+  "preprocessing": "RGB, letterbox to 640x640, CHW float32 /255",
+  "postprocessing": "xywh boxes + scores for no_helmet/helmet; apply confidence filter, NMS and inverse letterbox",
+  "limitation": "Synthetic tensor verifies export parity, not real-world model accuracy."
+}

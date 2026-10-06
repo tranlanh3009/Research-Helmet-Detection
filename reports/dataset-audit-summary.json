@@ -1,0 +1,100 @@
+{
+  "source": "https://github.com/AlanLowe007/EMHDD",
+  "commit": "137bb39cf5580c14e54e08e9ff2c7a8a420595f0",
+  "seed": 42,
+  "images": 56,
+  "unique_pixel_hashes": 56,
+  "near_duplicate_pairs_phash_hamming_le6": [],
+  "groups": 56,
+  "splits": {
+    "train": {
+      "images": 39,
+      "objects": {
+        "1": 33,
+        "0": 60
+      },
+      "ids": [
+        "daytime_00031",
+        "daytime_00024",
+        "daytime_00051",
+        "daytime_00012",
+        "daytime_00017",
+        "daytime_00021",
+        "daytime_00052",
+        "daytime_00055",
+        "daytime_00036",
+        "daytime_00020",
+        "daytime_00010",
+        "daytime_00034",
+        "daytime_00042",
+        "daytime_00045",
+        "daytime_00030",
+        "daytime_00056",
+        "daytime_00004",
+        "daytime_00022",
+        "daytime_00047",
+        "daytime_00005",
+        "daytime_00029",
+        "daytime_00011",
+        "daytime_00043",
+        "daytime_00023",
+        "daytime_00039",
+        "daytime_00025",
+        "daytime_00001",
+        "daytime_00026",
+        "daytime_00049",
+        "daytime_00019",
+        "daytime_00032",
+        "daytime_00037",
+        "daytime_00027",
+        "daytime_00013",
+        "daytime_00040",
+        "daytime_00033",
+        "daytime_00050",
+        "daytime_00014",
+        "daytime_00046"
+      ]
+    },
+    "val": {
+      "images": 8,
+      "objects": {
+        "0": 20,
+        "1": 5
+      },
+      "ids": [
+        "daytime_00054",
+        "daytime_00003",
+        "daytime_00028",
+        "daytime_00038",
+        "daytime_00006",
+        "daytime_00035",
+        "daytime_00044",
+        "daytime_00007"
+      ]
+    },
+    "test": {
+      "images": 9,
+      "objects": {
+        "0": 18,
+        "1": 4
+      },
+      "ids": [
+        "daytime_00053",
+        "daytime_00009",
+        "daytime_00015",
+        "daytime_00016",
+        "daytime_00018",
+        "daytime_00048",
+        "daytime_00002",
+        "daytime_00008",
+        "daytime_00041"
+      ]
+    }
+  },
+  "limitations": [
+    "Only public daytime sample; not the claimed full 52,800-image corpus.",
+    "No video/camera IDs: perceptual grouping does not guarantee source-disjoint splits.",
+    "No explicit dataset license found; research pilot only; obtain permission before redistribution/deployment.",
+    "Some labels cover bicycle/e-bike riders or nearby pedestrians; rider association is not provided."
+  ]
+}

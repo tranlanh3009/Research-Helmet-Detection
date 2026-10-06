@@ -1,0 +1,50 @@
+{
+  "model": "YOLO11n pretrained COCO, frozen first 10 modules",
+  "torch": "2.6.0+cpu",
+  "ultralytics": "8.3.220",
+  "device": "cpu",
+  "epochs_requested": 30,
+  "epochs_completed": 30,
+  "imgsz": 640,
+  "batch": 4,
+  "seed": 42,
+  "train_seconds": 277.220249772,
+  "run_directory": "/workspace/helmet-runtime/runs/emhdd-pilot",
+  "best_checkpoint": "/workspace/Research-Helmet-Detection/artifacts/best.pt",
+  "test": {
+    "aggregate": {
+      "metrics/precision(B)": 0.4763517828489858,
+      "metrics/recall(B)": 0.6527777777777778,
+      "metrics/mAP50(B)": 0.42981037000238387,
+      "metrics/mAP50-95(B)": 0.24408356981696686,
+      "fitness": 0.24408356981696686
+    },
+    "per_class": [
+      {
+        "id": 0,
+        "name": "no_helmet",
+        "precision": 0.6216344103278348,
+        "recall": 0.5555555555555556,
+        "mAP50": 0.5011558277240662,
+        "mAP50_95": 0.23810726796956244
+      },
+      {
+        "id": 1,
+        "name": "helmet",
+        "precision": 0.33106915537013687,
+        "recall": 0.75,
+        "mAP50": 0.3584649122807016,
+        "mAP50_95": 0.2500598716643713
+      }
+    ],
+    "speed_ms_per_image": {
+      "preprocess": 0.5270734444340834,
+      "inference": 61.949402666666884,
+      "loss": 0.0004163333263325815,
+      "postprocess": 0.46375355556291553
+    },
+    "note": "Precision/recall use the evaluator F1 operating point, not the deployed confidence threshold."
+  },
+  "status": "research pilot; insufficient data for deployment",
+  "checkpoint_sha256": "776188274a3d3d578e77eabb0a394939647e8c880c9cf04a6313a102dbda4857"
+}

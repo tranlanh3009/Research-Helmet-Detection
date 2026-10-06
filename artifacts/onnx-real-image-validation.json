@@ -1,0 +1,11 @@
+{
+  "image": "daytime_00008.jpg",
+  "detections_pytorch": 2,
+  "detections_onnx": 2,
+  "confidence": 0.25,
+  "imgsz": 640,
+  "rect": false,
+  "max_absolute_box_score_difference": 0.0001220703125,
+  "onnx_real_image_inference": "passed",
+  "pytorch_onnx_post_nms_parity": "passed"
+}

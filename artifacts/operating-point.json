@@ -1,0 +1,169 @@
+{
+  "split": "test",
+  "images": 9,
+  "confidence": 0.25,
+  "match_iou": 0.5,
+  "class_metrics": {
+    "no_helmet": {
+      "tp": 10,
+      "fp": 4,
+      "fn": 8,
+      "precision": 0.7142857142857143,
+      "recall": 0.5555555555555556,
+      "f1": 0.6250000000000001
+    },
+    "helmet": {
+      "tp": 2,
+      "fp": 5,
+      "fn": 2,
+      "precision": 0.2857142857142857,
+      "recall": 0.5,
+      "f1": 0.36363636363636365
+    }
+  },
+  "latency_ms_wall": {
+    "median": 132.79051999995772,
+    "p95": 365.2906141999892,
+    "mean": 171.73026944441165,
+    "fps_inverse_mean": 5.823085255937921
+  },
+  "timing_scope": "CPU batch=1, warmed model, image decoding + preprocessing + model + NMS; no network/video/rendering",
+  "objects_with_min_normalized_side_times_imgsz_under_8": 5,
+  "per_image": [
+    {
+      "image": "daytime_00002",
+      "counts": {
+        "0": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0
+        },
+        "1": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      }
+    },
+    {
+      "image": "daytime_00008",
+      "counts": {
+        "0": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        },
+        "1": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      }
+    },
+    {
+      "image": "daytime_00009",
+      "counts": {
+        "0": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0
+        },
+        "1": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        }
+      }
+    },
+    {
+      "image": "daytime_00015",
+      "counts": {
+        "0": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 0
+        },
+        "1": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      }
+    },
+    {
+      "image": "daytime_00016",
+      "counts": {
+        "0": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0
+        },
+        "1": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 0
+        }
+      }
+    },
+    {
+      "image": "daytime_00018",
+      "counts": {
+        "0": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        "1": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      }
+    },
+    {
+      "image": "daytime_00041",
+      "counts": {
+        "0": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        "1": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        }
+      }
+    },
+    {
+      "image": "daytime_00048",
+      "counts": {
+        "0": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 2
+        },
+        "1": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        }
+      }
+    },
+    {
+      "image": "daytime_00053",
+      "counts": {
+        "0": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 6
+        },
+        "1": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0
+        }
+      }
+    }
+  ]
+}
